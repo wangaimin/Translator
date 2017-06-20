@@ -538,7 +538,7 @@ namespace Translator
                     return;
                 }
                 //        data source=localhost;database=YZ_AuthCenter;user id=sa;password=yzw@123;
-                string insertSql = @"INSERT INTO [YZ_AuthCenter].[dbo].[SystemOrganization_Resource_New]
+                string insertSql = @"INSERT INTO [YZ_AuthCenter].[dbo].[SystemOrganization_Resource]
                                    ([SystemOrganizationSysNo]
                                    ,[LanguageCode]
                                    ,[OrganizationName]
@@ -573,11 +573,11 @@ namespace Translator
                      SELECT A.[SysNo]
                           ,A.[OrganizationName]
                           ,A.OrganizationFullName
-                      FROM [YZ_AuthCenter].[dbo].[SystemOrganization_New] A
+                      FROM [YZ_AuthCenter].[dbo].[SystemOrganization] A
                       WHERE NOT EXISTS(
                       SELECT TOP 1 
                                  1
-			                     FROM [YZ_AuthCenter].[dbo].[SystemOrganization_Resource_New] B WHERE 
+			                     FROM [YZ_AuthCenter].[dbo].[SystemOrganization_Resource] B WHERE 
 			                     A.SysNo=B.SystemOrganizationSysNo)
                    
                         "
