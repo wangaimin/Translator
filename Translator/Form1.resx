@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tbCookie_File.Text" xml:space="preserve">
+    <value>MicrosoftApplicationsTelemetryDeviceId=0081d937-6cf7-f3bb-8398-b2c23030c717; MicrosoftApplicationsTelemetryFirstLaunchTime=1495614721546; mtstkn=qrTq18UUfmnO4GVVJlBKAx8d%2Fmp5rW999xEPJvsxWCpSovBHEZrVRBz2Zr2RViOV; srcLang=zh-CHS; destLang=en; smru_list=zh-CHS; dmru_list=af%2Cen; sourceDia=zh-CN; destDia=en-US; MUID=2AE378DFAA9169B60968712EAE916ADB; MUIDB=2AE378DFAA9169B60968712EAE916ADB; SRCHD=AF=NOFORM; SRCHUID=V=2&amp;GUID=9AC1DE3A8B9642FD8DE23467513312F3; SRCHUSR=DOB=20170524; srcLang=zh-CHS; destLang=en; smru_list=zh-CHS; dmru_list=af%2Cen; sourceDia=zh-CN; destDia=en-US; _EDGE_S=SID=112DA28C9A73646D125CA8109BD2656A; WLID=PqNldZWCiv6v6NAmlxqZsM1rbH6Uk7Mh9/SyWQ8dYsv2p4JGddfGB1qVAKwRiRyP8dPm+zJtaPQJ/ZDaS8YNCOXql/tAA0ERz0dsRbkHA9o=; KievRPSAuth=FABKARRaTOJILtFsMkpLVWSG6AN6C/svRwNmAAAEgAAACA0TNs6v3AdGCAHaTq7EUWshfOVvxSibUP3owGeIHE3i2clUjfaQSmQnADolBi%2BG0VuNVG6QrrLhykuYsV4J9GaEhdTPiSMKRQ6E26m4CroeKqcF03Ob3iyIes/r6ILd8hSD4IeWW0iHlLY5mLaErLd5zQiQm/4mt/F0vBA96Xba2E1lv6et5ugRXhXGRG2tL0phOFml52FhRl3gEYoVQgYnoxzzbNKXMYyz6YgrLFIMw4Ghw4XOAVI7ty%2BvWu6iYr1Z%2Bs5C20FO0xvY4J9VMeI1kgupnr8/f7kOmcdAVkcbOBpqkd8ROu/qyH/YDeYhp0aFXhXE%2BFcLdXr10vb6pmVKiGEC3I/7H7I9MGSyzS5t0YgUALlMk/muwG447lOd/YMH%2B2qneNsB; KievRPSSecAuth=FABKARRaTOJILtFsMkpLVWSG6AN6C/svRwNmAAAEgAAACIoAeZ/M%2Ba5kCAH%2BFLEu707BmxBZs2PYTNzGDmeHJ8gPB47Cz%2B8Ayi9WwZWE4wG2oRxnnhZDBBMH3rA54o%2BYcxfx%2B6RJCKxCo7S1I9lqyTvEItHSs2cElb1nMyCWXJwvj7dXZkPG6FIiny%2BJR%2Bjffig482OY3k843MMZPVeMVwy9snN3n%2BtwuQxfYvHoBCuNRZnNw0RSsXjGa92RQfS%2BzDD531%2B%2BofNRwxOLWgrXuSSW2p/11804OVJC004jSzuziaH7%2BHLp5Y3ZNey1N0DLvu4TLjGzpepqdgwGal4gXKrmJTOnWFQTX0mZDskJCF%2BZhDEQjWbqHQNRMXoXzZ53bGNfQrv98DrJBJHnI8HPyPIbClYUAB9082wbDNDtNxK7TcxhClQx%2Bz9U; PPLState=1; ANON=A=0E3E46B5475F741ED545A3B3FFFFFFFF&amp;E=13d0&amp;W=1; NAP=V=1.9&amp;E=1376&amp;C=CpvjyHWR24x_V6yuDFA7VTeTXOWPn2uSJcjyc5wP-gNw6QdhguM7qw&amp;W=1; WLS=TS=63632583404&amp;C=84d4eff20d88a3dd&amp;N=; _SS=SID=112DA28C9A73646D125CA8109BD2656A; _U=1_vvKQ-iBCrBl7FlnDqf-5nYsD_bv_G3BWG5lJ_9tTS3JUdiXTbYqHdLvtlDERf8U-dFaLEnQ_tMOc3_0w27_bPiBgZ92xezkmp5Dp7L4s5Adcts7rBUd4YFY8Sc5jkQT</value>
+  </data>
+  <data name="tbCookie_DB.Text" xml:space="preserve">
+    <value>mtstkn=763C0LFGhx2L3ggny111kR7Y3bOIpns3fOiW2I%2Bz1djuy8K8qBrp72hrRRbeDKrE; MicrosoftApplicationsTelemetryDeviceId=ccf310d7-3de9-e5d1-9362-c5beaf96b90f; MicrosoftApplicationsTelemetryFirstLaunchTime=1497859948237; destLang=en; dmru_list=en; destDia=en-US; srcLang=-; smru_list=; sourceDia=zh-CN; _EDGE_S=F=1&amp;SID=0FF0E03E58DB6DBC0F77EA98597A6CEF; _EDGE_V=1; MUID=1D0AC99792A36D613A36C33193026C21; MUIDB=1D0AC99792A36D613A36C33193026C21; WLS=TS=63633456737; SRCHD=AF=NOFORM; SRCHUID=V=2&amp;GUID=452DB8ADF283482B838BB5CF305A0AF3; SRCHUSR=DOB=20170619; _SS=SID=0FF0E03E58DB6DBC0F77EA98597A6CEF</value>
+  </data>
+</root>
