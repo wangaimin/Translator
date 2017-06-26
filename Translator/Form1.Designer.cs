@@ -35,19 +35,13 @@
             this.btnMenu = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.tbCookie_File = new System.Windows.Forms.TextBox();
-            this.btnGoogle = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.tbResult = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tbQuery = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.btnSystemAreaByYouDao = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -59,15 +53,24 @@
             this.btnSystemOrganization = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.tbDBConfig = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btnGoogle = new System.Windows.Forms.Button();
+            this.tbResult = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tbQuery = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.页面翻译.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // 页面翻译
             // 
             this.页面翻译.Controls.Add(this.tabPage1);
             this.页面翻译.Controls.Add(this.tabPage2);
+            this.页面翻译.Controls.Add(this.tabPage3);
             this.页面翻译.Location = new System.Drawing.Point(12, 12);
             this.页面翻译.Name = "页面翻译";
             this.页面翻译.SelectedIndex = 0;
@@ -80,19 +83,13 @@
             this.tabPage1.Controls.Add(this.btnMenu);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.tbCookie_File);
-            this.tabPage1.Controls.Add(this.btnGoogle);
             this.tabPage1.Controls.Add(this.button6);
             this.tabPage1.Controls.Add(this.button7);
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.textBox3);
             this.tabPage1.Controls.Add(this.button3);
-            this.tabPage1.Controls.Add(this.tbResult);
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.tbQuery);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.button2);
-            this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Location = new System.Drawing.Point(4, 28);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -103,7 +100,7 @@
             // 
             // btnSEO
             // 
-            this.btnSEO.Location = new System.Drawing.Point(917, 807);
+            this.btnSEO.Location = new System.Drawing.Point(921, 362);
             this.btnSEO.Name = "btnSEO";
             this.btnSEO.Size = new System.Drawing.Size(161, 75);
             this.btnSEO.TabIndex = 30;
@@ -113,7 +110,7 @@
             // 
             // btnMenu
             // 
-            this.btnMenu.Location = new System.Drawing.Point(713, 807);
+            this.btnMenu.Location = new System.Drawing.Point(717, 362);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(161, 75);
             this.btnMenu.TabIndex = 29;
@@ -136,22 +133,13 @@
             this.tbCookie_File.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tbCookie_File.Location = new System.Drawing.Point(306, 47);
             this.tbCookie_File.Name = "tbCookie_File";
-            this.tbCookie_File.Size = new System.Drawing.Size(755, 42);
+            this.tbCookie_File.Size = new System.Drawing.Size(802, 42);
             this.tbCookie_File.TabIndex = 27;
             this.tbCookie_File.Text = resources.GetString("tbCookie_File.Text");
             // 
-            // btnGoogle
-            // 
-            this.btnGoogle.Location = new System.Drawing.Point(834, 411);
-            this.btnGoogle.Name = "btnGoogle";
-            this.btnGoogle.Size = new System.Drawing.Size(205, 81);
-            this.btnGoogle.TabIndex = 26;
-            this.btnGoogle.Text = "Google翻译";
-            this.btnGoogle.UseVisualStyleBackColor = true;
-            // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(522, 909);
+            this.button6.Location = new System.Drawing.Point(526, 464);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(161, 75);
             this.button6.TabIndex = 25;
@@ -161,7 +149,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(306, 909);
+            this.button7.Location = new System.Drawing.Point(310, 464);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(161, 75);
             this.button7.TabIndex = 24;
@@ -171,7 +159,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(522, 807);
+            this.button5.Location = new System.Drawing.Point(526, 362);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(161, 75);
             this.button5.TabIndex = 23;
@@ -181,7 +169,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(306, 807);
+            this.button4.Location = new System.Drawing.Point(310, 362);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(161, 75);
             this.button4.TabIndex = 22;
@@ -192,7 +180,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox3.Location = new System.Drawing.Point(302, 589);
+            this.textBox3.Location = new System.Drawing.Point(306, 144);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(802, 174);
@@ -202,41 +190,13 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(65, 692);
+            this.button3.Location = new System.Drawing.Point(69, 247);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(150, 71);
             this.button3.TabIndex = 20;
             this.button3.Text = "选择文件夹";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // tbResult
-            // 
-            this.tbResult.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tbResult.Location = new System.Drawing.Point(307, 193);
-            this.tbResult.Multiline = true;
-            this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(754, 174);
-            this.tbResult.TabIndex = 19;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(27, 140);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(253, 30);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "需要翻译的文本：";
-            // 
-            // tbQuery
-            // 
-            this.tbQuery.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tbQuery.Location = new System.Drawing.Point(307, 128);
-            this.tbQuery.Name = "tbQuery";
-            this.tbQuery.Size = new System.Drawing.Size(754, 42);
-            this.tbQuery.TabIndex = 17;
-            this.tbQuery.Text = "我爱你，中国";
             // 
             // label1
             // 
@@ -247,26 +207,6 @@
             this.label1.Size = new System.Drawing.Size(103, 30);
             this.label1.TabIndex = 16;
             this.label1.Text = "结果：";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(546, 411);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(205, 81);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "有道翻译";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(302, 411);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(161, 75);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Bing翻译";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage2
             // 
@@ -387,6 +327,76 @@
             this.tbDBConfig.Text = " data source=localhost;database=YZ_AuthCenter\r\n;user id=sa;password=yzw@123;Timeo" +
     "ut=30;";
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.btnGoogle);
+            this.tabPage3.Controls.Add(this.tbResult);
+            this.tabPage3.Controls.Add(this.label3);
+            this.tabPage3.Controls.Add(this.tbQuery);
+            this.tabPage3.Controls.Add(this.button2);
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Location = new System.Drawing.Point(4, 28);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(2011, 1091);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "测试";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // btnGoogle
+            // 
+            this.btnGoogle.Location = new System.Drawing.Point(858, 331);
+            this.btnGoogle.Name = "btnGoogle";
+            this.btnGoogle.Size = new System.Drawing.Size(205, 81);
+            this.btnGoogle.TabIndex = 32;
+            this.btnGoogle.Text = "Google翻译";
+            this.btnGoogle.UseVisualStyleBackColor = true;
+            // 
+            // tbResult
+            // 
+            this.tbResult.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbResult.Location = new System.Drawing.Point(331, 113);
+            this.tbResult.Multiline = true;
+            this.tbResult.Name = "tbResult";
+            this.tbResult.Size = new System.Drawing.Size(754, 174);
+            this.tbResult.TabIndex = 31;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(51, 60);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(253, 30);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "需要翻译的文本：";
+            // 
+            // tbQuery
+            // 
+            this.tbQuery.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbQuery.Location = new System.Drawing.Point(331, 48);
+            this.tbQuery.Name = "tbQuery";
+            this.tbQuery.Size = new System.Drawing.Size(754, 42);
+            this.tbQuery.TabIndex = 29;
+            this.tbQuery.Text = "我爱你，中国";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(570, 331);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(205, 81);
+            this.button2.TabIndex = 28;
+            this.button2.Text = "有道翻译";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(326, 331);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(161, 75);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "Bing翻译";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -400,6 +410,8 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -409,19 +421,13 @@
         private System.Windows.Forms.TabControl 页面翻译;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button btnGoogle;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox tbResult;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbQuery;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbDBConfig;
         private System.Windows.Forms.Button btnSystemCategory;
@@ -436,6 +442,13 @@
         private System.Windows.Forms.Button btnSystemAreaByYouDao;
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Button btnSEO;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Button btnGoogle;
+        private System.Windows.Forms.TextBox tbResult;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tbQuery;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

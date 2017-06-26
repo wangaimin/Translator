@@ -351,8 +351,6 @@ namespace Translator
             foreach (var item in dic)
             {
 
-                //todo:临时屏蔽，正式使用时放开，不然会重复翻译
-
                 if (item.Value.StartsWith("E-"))
                 {
                     val = item.Value.Replace("E-", "");
@@ -368,12 +366,12 @@ namespace Translator
 
                 //todo:屏蔽
                 // val = item.Key;
-                //  Debug.WriteLine(val);
+                  Debug.WriteLine(val);
 
                 if (translationMethods == TranslationMethods.YouDao)
                 {
-                    try
-                    {
+                    //try
+                    //{
                         resultVal = TranstalorHelper.TranstaleByYouDaoAPI(val);
 
                         var data = JsonDeserializeFixed<YouDaoResultData>(resultVal);
@@ -382,16 +380,16 @@ namespace Translator
                         {
                             result.Add(item.Key, data.translation[0]);
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        Debug.WriteLine("-------异常：" + val);
-                    }
+                    //}
+                    //catch (Exception ex)
+                    //{
+                    //    Debug.WriteLine("-------异常：" + val);
+                    //}
                 }
                 else if (translationMethods == TranslationMethods.Bing)
                 {
-                    try
-                    {
+                    //try
+                    //{
                         resultVal = TranstalorHelper.TranstaleByBing(val, cookie);
                         //if (string.IsNullOrEmpty(resultVal))
                         //{
@@ -401,13 +399,21 @@ namespace Translator
                         //{"from":"zh-CHS","to":"en","items":[{"id":"-17855184818","text":"Please enter the username you want to retrieve","wordAlignment":""}]}
                         if (!result.ContainsKey(item.Key))
                         {
-                            result.Add(item.Key, data.items[0].text);
+                        string value = data.items[0].text;
+                        if (value.Length>=1&& System.Text.RegularExpressions.Regex.IsMatch(value.Substring(0, 1), @"^[a-z]$"))
+                        {
+                            result.Add(item.Key, value.Substring(0,1).ToUpper()+value.Substring(1));
+                        }
+                        else
+                        { 
+                            result.Add(item.Key, value);
                         }
                     }
-                    catch (Exception ex)
-                    {
-                        Debug.WriteLine("-------异常：" + val);
-                    }
+                    //}
+                    //catch (Exception ex)
+                    //{
+                    //    Debug.WriteLine("-------异常：" + val);
+                    //}
 
                 }
                 else if (translationMethods == TranslationMethods.Google)
